@@ -1599,7 +1599,7 @@ var initSlider = function (container,opt) {
 			
 			if (_nc.hasClass("tp-caption")) {
 				// PREPARE LAYERS AND WRAP THEM WITH PARALLAX, LOOP, MASK HELP CONTAINERS
-				var ec = _nc.hasClass("slidelink") ? "width:100% !important;height:100% !important;" : "",
+				var ec = _nc.hasClass("slidelink") ? "width:100% ;height:100% ;" : "",
 					_ndata = _nc.data(),
 					specec = "",
 					nctype = _ndata.type,
