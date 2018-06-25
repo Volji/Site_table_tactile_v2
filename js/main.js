@@ -2325,31 +2325,17 @@ $(document).ready(function () {
 END READY
 ====================================== */
 
+/* Loader
+-----------------------------------------------------------------------------------*/
+$(window).load(function() {
 
-/* ===================================
-START Page Load
-====================================== */
-$(window).load(function () {
-    var hash = window.location.hash.substr(1);
-    if (hash != "") {
-        setTimeout(function () {
-            $(window).imagesLoaded(function () {
-                var scrollAnimationTime = 1200,
-                        scrollAnimation = 'easeInOutExpo';
-                var target = '#' + hash;
-                if ($(target).length > 0) {
+	$(".loader_inner").fadeOut();
+	$(".loader").delay(400).fadeOut("slow");
 
-                    $('html, body').stop()
-                            .animate({
-                                'scrollTop': $(target).offset().top
-                            }, scrollAnimationTime, scrollAnimation, function () {
-                                window.location.hash = target;
-                            });
-                }
-            });
-        }, 500);
-    }
 });
+
+
+
 /* ===================================
 END Page Load
 ====================================== */
