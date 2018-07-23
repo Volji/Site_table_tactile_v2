@@ -263,6 +263,7 @@ a.text-very-light-gray-hover:hover {color:#ededed}
 .bg-black-opacity-light { background-color: rgba(0, 0, 0, 0.40); }
 .bg-deep-pink-opacity {background-color: rgba(255, 33, 79, 0);}
 .bg-charcoal-gray{background-color: #0e0f10;}
+.bg-purple {background-color:#d49bf5;}
 
 /* ===================================
     Custom
@@ -816,6 +817,7 @@ textarea.input-bg {background-color: #f7f7f7; border-radius: 4px; border: 1px so
 .margin-95px-bottom {margin-bottom:95px}
 .margin-100px-bottom {margin-bottom:100px}
 .margin-150px-bottom {margin-bottom:150px}
+.margin-200px-bottom {margin-bottom:200px}
 /* margin right */
 .margin-one-right {margin-right:1%}
 .margin-one-half-right {margin-right:1.5%}
@@ -3017,7 +3019,7 @@ header.sticky nav.navbar.brand-center ul.nav > li > a {padding: 20px; margin: 0 
 .hover-option11 .swiper-slide.grid-item:hover figcaption {opacity: 1}
 .hover-option11 .grid-item .portfolio-item-title{ transition: all 0.2s ease 0s; -webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s; -ms-transition: all 0.2s ease 0s;}
 
-.hover-option11 .grid-item > a:hover .portfolio-item-title { color: #fff;}
+.hover-option11 .grid-item > a:hover .portfolio-item-title { color: #d49bf5;}
 .hover-option11 .grid-item .portfolio-img { margin-bottom: 33px; transition: all 0.2s ease 0s; -webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s; -ms-transition: all 0.2s ease 0s;}
 .hover-option11 .grid-item .portfolio-img img {box-shadow: 0 0 8px rgba(0,0,0,1);}
 .hover-option11 .grid-item:hover .portfolio-img img {opacity: .6; transition: all 0.2s ease 0s; -webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s; -ms-transition: all 0.2s ease 0s;}
@@ -3280,7 +3282,7 @@ header.sticky nav.navbar.brand-center ul.nav > li > a {padding: 20px; margin: 0 
 
 /* feature box style 13 */
 .feature-box-13 {overflow: hidden; z-index: 1;}
-.feature-box-13:before { background: #ff214f; left: 0; height: 100%;  top: 0; position: absolute; width: 100%; z-index: -1; display: block; content: ""; transition-duration: 0.3s; -webkit-transition-duration: 0.3s; -moz-transition-duration: 0.3s; -ms-transition-duration: 0.3s; -o-transition-duration: 0.3s; transform:scaleY(0); -webkit-transform:scaleY(0); -moz-transform:scaleY(0); -ms-transform:scaleY(0); -o-transform:scaleY(0); opacity: 0}
+.feature-box-13:before { background: #d49bf5; left: 0; height: 100%;  top: 0; position: absolute; width: 100%; z-index: -1; display: block; content: ""; transition-duration: 0.3s; -webkit-transition-duration: 0.3s; -moz-transition-duration: 0.3s; -ms-transition-duration: 0.3s; -o-transition-duration: 0.3s; transform:scaleY(0); -webkit-transform:scaleY(0); -moz-transform:scaleY(0); -ms-transform:scaleY(0); -o-transform:scaleY(0); opacity: 0}
 .feature-box-13:hover:before {transform: scaleY(1); -webkit-transform: scaleY(1); -moz-transform: scaleY(1); -ms-transform: scaleY(1); -o-transform: scaleY(1); transition-duration: 0.3s; -webkit-transition-duration: 0.3s; -moz-transition-duration: 0.3s; -ms-transition-duration: 0.3s; -o-transition-duration: 0.3s; opacity: 1}
 .feature-box-13:hover i {color: #232323 }
 .feature-box-13:hover p {color: #fff }
