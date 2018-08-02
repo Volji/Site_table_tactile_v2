@@ -2362,13 +2362,16 @@ nav.navbar.bootsnav li.dropdown .mega-menu-full > ul li:first-child a,nav.navbar
 nav.navbar.bootsnav li.dropdown.megamenu-fw .icon-list-menu li > a > i {font-size: 14px; vertical-align: middle; width: 24px;}
 nav.navbar.bootsnav li.dropdown .mega-menu-full > ul > li { border-right: 1px solid rgba(255, 255, 255, 0.05);}
 nav.navbar.bootsnav li.dropdown .mega-menu-full > ul > li:last-child {border: 0;}
-nav.navbar.bootsnav li.dropdown .mega-menu-full > ul > li:last-child img { padding-left: 40px; background-size: cover; background-position: bottom right;}
+nav.navbar.bootsnav li.dropdown .mega-menu-full > ul > li:last-child img { padding-left: 0px; background-size: cover; background-position: bottom right;}
 nav.navbar.bootsnav li.dropdown .mega-menu-full > ul > li > ul { margin-top: 18px;}
 nav.navbar.bootsnav li.dropdown .mega-menu-full > ul > li > ul:first-child { margin-top: 0;}
 nav.navbar.bootsnav li.dropdown .megamenu-fw .icon-list-menu li > a > i {font-size: 14px;vertical-align: middle;width: 24px;}
 
 nav.navbar.navbar-default ul li.dropdown .dropdown-menu .mega-menu-column li > a.menu-banner-image, nav.navbar.navbar-default ul li.dropdown .dropdown-menu .mega-menu-column li > a:hover.menu-banner-image { left: 0; padding: 0; margin-bottom: 20px }
 nav.navbar.navbar-default ul li.dropdown .dropdown-menu .mega-menu-column li:last-child > a.menu-banner-image{ margin-bottom: 0;}
+
+img:not(.mega-menu-column) {
+}
 
 /* header center logo */
 .nav-left, .nav-right, .nav-center {display: table-cell; vertical-align: middle; width: 33.33%}
